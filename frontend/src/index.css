@@ -1,0 +1,50 @@
+/* Items.css */
+.items-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.item-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.item-form label {
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item-card {
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
